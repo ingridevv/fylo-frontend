@@ -1,0 +1,43 @@
+.newsletter-wrapper {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8.5rem auto -3.5rem auto;
+  background-color: var(--Navy-850);
+  padding: 2rem 4rem;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 15px 5px hsl(176, 68%, 64%, 0.3);
+  position: relative;
+  z-index: 3;
+}
+
+.newsletter-content {
+  text-align: center;
+  align-items: center;
+  padding: 0.5rem 4rem;
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  p {
+    margin: 1rem 0rem;
+    font-size: 0.7rem;
+  }
+}
+
+input[type="email"] {
+  border: none;
+  border-radius: 3rem;
+  text-align: left;
+  padding: 0.8rem 4.5rem 0.8rem 1.5rem;
+  outline: none;
+}
+
+input:focus {
+  color: #333;
+  border: 1px solid var(--Teal-200);
+}

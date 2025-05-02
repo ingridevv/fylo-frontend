@@ -1,0 +1,34 @@
+/** BENEFITS **/
+.benefits {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2.5rem 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit-container {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem 2rem; 
+}
+
+.icon {
+    width: 25%;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem;
+    line-height: 1.5em;
+}
+
+.description {
+    line-height: 1.5em;
+    font-size: 0.7rem;
+    font-weight: 400;
+    width: 80%;
+    margin: 0 auto;
+}
